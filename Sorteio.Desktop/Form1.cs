@@ -38,9 +38,16 @@ namespace Sorteio.Desktop
 
             listBoxNomes.Items.Add(txtNome.Text);
 
+            AtualizarBotao();
+
             ClearAndFocus();
 
             TryEnableLottery();
+        }
+
+        private void AtualizarBotao()
+        {
+            btnSortear.Text = $"Sortear - {listBoxNomes.Items.Count} candidato(s)";
         }
 
         private void TryEnableLottery()
@@ -75,6 +82,8 @@ namespace Sorteio.Desktop
                 if (listBoxNomes.SelectedItem != null)
                 {
                     listBoxNomes.Items.Remove(listBoxNomes.SelectedItem);
+
+                    AtualizarBotao();
                 }
             }
         }

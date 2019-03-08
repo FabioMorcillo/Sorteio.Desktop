@@ -62,10 +62,9 @@
             // 
             this.panelNome1.Controls.Add(this.pictureBoxNome1);
             this.panelNome1.Controls.Add(this.labelNome1);
-            this.panelNome1.Location = new System.Drawing.Point(599, 86);
-            this.panelNome1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelNome1.Location = new System.Drawing.Point(449, 70);
             this.panelNome1.Name = "panelNome1";
-            this.panelNome1.Size = new System.Drawing.Size(456, 149);
+            this.panelNome1.Size = new System.Drawing.Size(342, 121);
             this.panelNome1.TabIndex = 2;
             this.panelNome1.Tag = "1";
             // 
@@ -75,9 +74,8 @@
             this.pictureBoxNome1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBoxNome1.Enabled = false;
             this.pictureBoxNome1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxNome1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBoxNome1.Name = "pictureBoxNome1";
-            this.pictureBoxNome1.Size = new System.Drawing.Size(456, 149);
+            this.pictureBoxNome1.Size = new System.Drawing.Size(342, 121);
             this.pictureBoxNome1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxNome1.TabIndex = 1;
             this.pictureBoxNome1.TabStop = false;
@@ -88,9 +86,8 @@
             // 
             this.labelNome1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelNome1.Location = new System.Drawing.Point(0, 0);
-            this.labelNome1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNome1.Name = "labelNome1";
-            this.labelNome1.Size = new System.Drawing.Size(456, 149);
+            this.labelNome1.Size = new System.Drawing.Size(342, 121);
             this.labelNome1.TabIndex = 2;
             this.labelNome1.Tag = "1";
             this.labelNome1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -102,20 +99,17 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(491, 554);
+            this.panel1.Size = new System.Drawing.Size(368, 450);
             this.panel1.TabIndex = 3;
             // 
             // listBoxNomes
             // 
             this.listBoxNomes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxNomes.FormattingEnabled = true;
-            this.listBoxNomes.ItemHeight = 16;
-            this.listBoxNomes.Location = new System.Drawing.Point(0, 65);
-            this.listBoxNomes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBoxNomes.Location = new System.Drawing.Point(0, 53);
             this.listBoxNomes.Name = "listBoxNomes";
-            this.listBoxNomes.Size = new System.Drawing.Size(491, 489);
+            this.listBoxNomes.Size = new System.Drawing.Size(368, 397);
             this.listBoxNomes.TabIndex = 1;
             this.listBoxNomes.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ListBoxNomes_KeyDown);
             // 
@@ -124,17 +118,15 @@
             this.panel2.Controls.Add(this.txtNome);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(491, 65);
+            this.panel2.Size = new System.Drawing.Size(368, 53);
             this.panel2.TabIndex = 0;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(21, 21);
-            this.txtNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNome.Location = new System.Drawing.Point(16, 17);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(451, 22);
+            this.txtNome.Size = new System.Drawing.Size(339, 20);
             this.txtNome.TabIndex = 0;
             this.txtNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNome_KeyPress);
             // 
@@ -142,10 +134,9 @@
             // 
             this.panelNome2.Controls.Add(this.pictureBoxNome2);
             this.panelNome2.Controls.Add(this.labelNome2);
-            this.panelNome2.Location = new System.Drawing.Point(599, 242);
-            this.panelNome2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelNome2.Location = new System.Drawing.Point(449, 197);
             this.panelNome2.Name = "panelNome2";
-            this.panelNome2.Size = new System.Drawing.Size(456, 149);
+            this.panelNome2.Size = new System.Drawing.Size(342, 121);
             this.panelNome2.TabIndex = 4;
             this.panelNome2.Tag = "2";
             // 
@@ -155,9 +146,8 @@
             this.pictureBoxNome2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBoxNome2.Enabled = false;
             this.pictureBoxNome2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxNome2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBoxNome2.Name = "pictureBoxNome2";
-            this.pictureBoxNome2.Size = new System.Drawing.Size(456, 149);
+            this.pictureBoxNome2.Size = new System.Drawing.Size(342, 121);
             this.pictureBoxNome2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxNome2.TabIndex = 1;
             this.pictureBoxNome2.TabStop = false;
@@ -168,9 +158,8 @@
             // 
             this.labelNome2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelNome2.Location = new System.Drawing.Point(0, 0);
-            this.labelNome2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNome2.Name = "labelNome2";
-            this.labelNome2.Size = new System.Drawing.Size(456, 149);
+            this.labelNome2.Size = new System.Drawing.Size(342, 121);
             this.labelNome2.TabIndex = 2;
             this.labelNome2.Tag = "2";
             this.labelNome2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -180,10 +169,9 @@
             // 
             this.panelNome3.Controls.Add(this.pictureBoxNome3);
             this.panelNome3.Controls.Add(this.labelNome3);
-            this.panelNome3.Location = new System.Drawing.Point(599, 399);
-            this.panelNome3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelNome3.Location = new System.Drawing.Point(449, 324);
             this.panelNome3.Name = "panelNome3";
-            this.panelNome3.Size = new System.Drawing.Size(456, 149);
+            this.panelNome3.Size = new System.Drawing.Size(342, 121);
             this.panelNome3.TabIndex = 3;
             this.panelNome3.Tag = "3";
             // 
@@ -193,9 +181,8 @@
             this.pictureBoxNome3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBoxNome3.Enabled = false;
             this.pictureBoxNome3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxNome3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBoxNome3.Name = "pictureBoxNome3";
-            this.pictureBoxNome3.Size = new System.Drawing.Size(456, 149);
+            this.pictureBoxNome3.Size = new System.Drawing.Size(342, 121);
             this.pictureBoxNome3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxNome3.TabIndex = 1;
             this.pictureBoxNome3.TabStop = false;
@@ -206,9 +193,8 @@
             // 
             this.labelNome3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelNome3.Location = new System.Drawing.Point(0, 0);
-            this.labelNome3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNome3.Name = "labelNome3";
-            this.labelNome3.Size = new System.Drawing.Size(456, 149);
+            this.labelNome3.Size = new System.Drawing.Size(342, 121);
             this.labelNome3.TabIndex = 2;
             this.labelNome3.Tag = "3";
             this.labelNome3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -218,12 +204,11 @@
             // 
             this.btnSortear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSortear.Enabled = false;
-            this.btnSortear.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSortear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSortear.ForeColor = System.Drawing.Color.Black;
-            this.btnSortear.Location = new System.Drawing.Point(500, 11);
-            this.btnSortear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSortear.Location = new System.Drawing.Point(375, 9);
             this.btnSortear.Name = "btnSortear";
-            this.btnSortear.Size = new System.Drawing.Size(556, 64);
+            this.btnSortear.Size = new System.Drawing.Size(417, 52);
             this.btnSortear.TabIndex = 5;
             this.btnSortear.Text = "Sortear";
             this.btnSortear.UseVisualStyleBackColor = true;
@@ -231,39 +216,36 @@
             // 
             // pictureBoxNumber3
             // 
-            this.pictureBoxNumber3.Location = new System.Drawing.Point(500, 439);
-            this.pictureBoxNumber3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxNumber3.Location = new System.Drawing.Point(375, 357);
             this.pictureBoxNumber3.Name = "pictureBoxNumber3";
-            this.pictureBoxNumber3.Size = new System.Drawing.Size(91, 76);
+            this.pictureBoxNumber3.Size = new System.Drawing.Size(68, 62);
             this.pictureBoxNumber3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxNumber3.TabIndex = 8;
             this.pictureBoxNumber3.TabStop = false;
             // 
             // pictureBoxNumber2
             // 
-            this.pictureBoxNumber2.Location = new System.Drawing.Point(500, 278);
-            this.pictureBoxNumber2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxNumber2.Location = new System.Drawing.Point(375, 226);
             this.pictureBoxNumber2.Name = "pictureBoxNumber2";
-            this.pictureBoxNumber2.Size = new System.Drawing.Size(91, 76);
+            this.pictureBoxNumber2.Size = new System.Drawing.Size(68, 62);
             this.pictureBoxNumber2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxNumber2.TabIndex = 7;
             this.pictureBoxNumber2.TabStop = false;
             // 
             // pictureBoxNumber1
             // 
-            this.pictureBoxNumber1.Location = new System.Drawing.Point(500, 121);
-            this.pictureBoxNumber1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxNumber1.Location = new System.Drawing.Point(375, 98);
             this.pictureBoxNumber1.Name = "pictureBoxNumber1";
-            this.pictureBoxNumber1.Size = new System.Drawing.Size(91, 76);
+            this.pictureBoxNumber1.Size = new System.Drawing.Size(68, 62);
             this.pictureBoxNumber1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxNumber1.TabIndex = 6;
             this.pictureBoxNumber1.TabStop = false;
             // 
             // FrmSorteio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBoxNumber3);
             this.Controls.Add(this.pictureBoxNumber2);
             this.Controls.Add(this.pictureBoxNumber1);
@@ -272,7 +254,6 @@
             this.Controls.Add(this.panelNome2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelNome1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmSorteio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sorteio do livro Domain Driven Design";
